@@ -35,9 +35,9 @@ export default function Home() {
                     <img 
                       src="/yc.webp" 
                       alt="Y Combinator" 
-                      className="h-2 sm:h-3 lg:h-4" 
+                      className="h-3 sm:h-4 lg:h-5" 
                     />
-                    <span className="text-xs sm:text-sm font-inter text-gray-400">
+                    <span className="text-sm sm:text-base font-inter text-gray-400">
                       backed company
                     </span>
                   </div>
