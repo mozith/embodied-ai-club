@@ -8,7 +8,7 @@ export default function Home() {
       <div className="absolute inset-0 opacity-[0.02] bg-grid-white/[0.2]"></div>
       
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-8 relative z-10">
+      <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-8 relative z-10 pt-8 sm:pt-12">
         <div className="max-w-6xl mx-auto w-full">
           <div className="grid lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-24 items-center">
             {/* Left Column - Text Content */}
