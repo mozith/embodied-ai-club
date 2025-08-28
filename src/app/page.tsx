@@ -19,7 +19,7 @@ export default function Home() {
                 </h1>
                 
                 <p className="hero-subtitle text-xl sm:text-2xl lg:text-3xl font-inter font-light text-gray-400 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  Hands-on robotics training with industry experts making AI accessible to all students
+                  Solving robotics' data problem through collaborative VLA model development
                 </p>
               </div>
               
@@ -27,9 +27,15 @@ export default function Home() {
                 <p className="text-sm font-inter text-gray-500 uppercase tracking-wider">
                   In collaboration with
                 </p>
-                <div className="text-2xl lg:text-3xl font-space-grotesk font-medium text-white">
-                  Cortex AI
-                  <span className="text-sm font-inter text-gray-500 ml-3">Y Combinator</span>
+                <div className="flex items-center justify-center lg:justify-start gap-3">
+                  <div className="text-2xl lg:text-3xl font-space-grotesk font-medium text-white">
+                    Cortex AI
+                  </div>
+                  <img 
+                    src="/yc.webp" 
+                    alt="Y Combinator" 
+                    className="h-4 lg:h-5" 
+                  />
                 </div>
               </div>
               
