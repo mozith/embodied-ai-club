@@ -8,42 +8,42 @@ export default function Home() {
       <div className="absolute inset-0 opacity-[0.02] bg-grid-white/[0.2]"></div>
       
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-6 md:px-8 relative z-10">
+      <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-8 relative z-10">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-24 items-center">
             {/* Left Column - Text Content */}
-            <div className="text-center lg:text-left space-y-12">
-              <div className="space-y-6">
-                <h1 className="hero-title text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-space-grotesk font-bold leading-[0.9] tracking-tight text-white">
+            <div className="text-center lg:text-left space-y-8 sm:space-y-12">
+              <div className="space-y-4 sm:space-y-6">
+                <h1 className="hero-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-space-grotesk font-bold leading-[0.9] tracking-tight text-white">
                   Embodied AI Club
                 </h1>
                 
-                <p className="hero-subtitle text-xl sm:text-2xl lg:text-3xl font-inter font-light text-gray-400 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                <p className="hero-subtitle text-lg sm:text-xl md:text-2xl lg:text-3xl font-inter font-light text-gray-400 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                   Solving robotics' data problem through collaborative VLA model development
                 </p>
               </div>
               
-              <div className="hero-partnership space-y-2 text-center lg:text-left">
-                <p className="text-sm font-inter text-gray-500 uppercase tracking-wider">
+              <div className="hero-partnership space-y-3 sm:space-y-2 text-center lg:text-left">
+                <p className="text-xs sm:text-sm font-inter text-gray-500 uppercase tracking-wider">
                   In collaboration with
                 </p>
-                <div className="flex items-center justify-center lg:justify-start gap-3">
-                  <div className="text-2xl lg:text-3xl font-space-grotesk font-medium text-white">
+                <div className="flex items-center justify-center lg:justify-start gap-2 sm:gap-3">
+                  <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-space-grotesk font-medium text-white">
                     Cortex AI
                   </div>
                   <img 
                     src="/yc.webp" 
                     alt="Y Combinator" 
-                    className="h-4 lg:h-5" 
+                    className="h-3 sm:h-4 lg:h-5" 
                   />
                 </div>
               </div>
               
-              <div className="hero-buttons flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
-                <button className="bg-white text-black px-8 py-4 font-inter font-medium text-lg rounded-none hover:bg-gray-100 transition-colors">
+              <div className="hero-buttons flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start pt-2 sm:pt-4">
+                <button className="bg-white text-black px-6 py-3 sm:px-8 sm:py-4 font-inter font-medium text-base sm:text-lg rounded-none hover:bg-gray-100 transition-colors">
                   Join the Club
                 </button>
-                <button className="border border-gray-800 text-white px-8 py-4 font-inter font-medium text-lg rounded-none hover:border-gray-600 transition-colors">
+                <button className="border border-gray-800 text-white px-6 py-3 sm:px-8 sm:py-4 font-inter font-medium text-base sm:text-lg rounded-none hover:border-gray-600 transition-colors">
                   Learn More
                 </button>
               </div>
