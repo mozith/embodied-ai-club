@@ -1,3 +1,5 @@
+'use client';
+
 export default function Home() {
   return (
     <div className="min-h-screen premium-gradient-bg relative overflow-hidden">
@@ -6,43 +8,70 @@ export default function Home() {
       <div className="floating-orb floating-orb-2"></div>
       
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative z-10">
-        <div className="max-w-5xl mx-auto">
-          <div className="mb-8">
-            <h1 className="hero-title text-6xl md:text-8xl font-space-grotesk font-light mb-8 leading-tight tracking-tight">
-              Embodied AI Club
-            </h1>
-            
-            <div className="flex justify-center mb-6">
-              <div className="premium-divider"></div>
-            </div>
-          </div>
-          
-          <p className="hero-subtitle text-xl md:text-3xl font-inter font-light mb-12 text-gray-200 max-w-4xl mx-auto leading-relaxed">
-            Advancing the frontier of robotic cognition through hands-on projects in collaboration with Cortex AI
-          </p>
-          
-          <div className="hero-partners glass-card rounded-2xl p-6 mb-12 max-w-2xl mx-auto">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-              <span className="text-lg font-inter font-light text-gray-300">In collaboration with</span>
-              <div className="accent-glow">
-                <div className="text-3xl font-space-grotesk font-semibold bg-gradient-to-r from-[#00c2ff] to-[#9333ea] bg-clip-text text-transparent">
-                  Cortex AI
+      <section className="min-h-screen flex items-center justify-center px-4 md:px-6 relative z-10">
+        <div className="max-w-7xl mx-auto w-full flex items-center justify-center min-h-screen">
+          <div className="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-16 items-center justify-center w-full">
+            {/* Left Column - Text Content */}
+            <div className="lg:col-span-7 text-center lg:text-left order-1 lg:order-1 flex flex-col justify-center">
+              <div className="mb-8 lg:mb-8">
+                <h1 className="hero-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-space-grotesk font-light mb-8 lg:mb-8 leading-tight tracking-tight">
+                  Embodied AI Club
+                </h1>
+                
+                <div className="flex justify-center lg:justify-start mb-6 lg:mb-6">
+                  <div className="premium-divider"></div>
                 </div>
               </div>
-              <span className="text-sm glass-card px-4 py-2 rounded-full text-gray-200 font-medium">
-                Y Combinator Company
-              </span>
+              
+              <p className="hero-subtitle text-base sm:text-lg md:text-xl lg:text-2xl font-inter font-light mb-6 lg:mb-8 text-gray-200 leading-relaxed max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
+                Advancing the frontier of robotic cognition through hands-on projects in collaboration with Cortex AI
+              </p>
+              
+              <div className="hero-partners glass-card rounded-2xl p-4 lg:p-6 mb-6 lg:mb-8 max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
+                <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 lg:gap-4">
+                  <span className="text-sm lg:text-base font-inter font-light text-gray-300">In collaboration with</span>
+                  <div className="accent-glow">
+                    <div className="text-xl sm:text-2xl lg:text-3xl font-space-grotesk font-semibold bg-gradient-to-r from-[#00c2ff] to-[#9333ea] bg-clip-text text-transparent">
+                      Cortex AI
+                    </div>
+                  </div>
+                  <span className="text-xs lg:text-sm glass-card px-3 lg:px-4 py-1 lg:py-2 rounded-full text-gray-200 font-medium">
+                    Y Combinator Company
+                  </span>
+                </div>
+              </div>
+              
+              <div className="hero-cta flex flex-col sm:flex-row gap-4 lg:gap-6 justify-center lg:justify-start">
+                <button className="btn-primary px-8 lg:px-10 py-3 lg:py-4 text-black font-inter font-semibold rounded-xl text-base lg:text-lg">
+                  Join the Club
+                </button>
+                <button className="btn-secondary px-8 lg:px-10 py-3 lg:py-4 text-white font-inter font-semibold rounded-xl text-base lg:text-lg">
+                  Learn More
+                </button>
+              </div>
             </div>
-          </div>
-          
-          <div className="hero-cta flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="btn-primary px-10 py-4 text-black font-inter font-semibold rounded-xl text-lg">
-              Join the Club
-            </button>
-            <button className="btn-secondary px-10 py-4 text-white font-inter font-semibold rounded-xl text-lg">
-              Learn More
-            </button>
+            
+            {/* Right Column - Video */}
+            <div className="lg:col-span-5 hero-video relative flex justify-center lg:justify-end order-2 lg:order-2 w-full mt-4 lg:mt-0">
+              <div className="glass-card rounded-2xl lg:rounded-3xl p-2 lg:p-3 accent-glow w-full max-w-sm sm:max-w-md lg:max-w-md xl:max-w-lg">
+                <div className="relative rounded-xl lg:rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-black" style={{ aspectRatio: '9/16' }}>
+                  {/* YouTube Embed - High Quality Autonomous Box Folding */}
+                  <iframe
+                    src="https://www.youtube.com/embed/MY-_ehZJ884?autoplay=1&mute=1&loop=1&playlist=MY-_ehZJ884&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&disablekb=1&fs=0&cc_load_policy=0&hl=en&color=white&autohide=0"
+                    title="Autonomous Box Folding Demonstration"
+                    frameBorder="0"
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen={false}
+                    className="w-full h-full rounded-xl lg:rounded-2xl"
+                    style={{
+                      border: 'none',
+                      outline: 'none',
+                      backgroundColor: '#000'
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         
