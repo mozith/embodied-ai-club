@@ -31,13 +31,13 @@ export default function Home() {
                   <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-space-grotesk font-medium text-white">
                     Cortex AI
                   </div>
-                  <div className="flex items-center gap-1 sm:gap-2">
+                  <div className="flex items-center gap-2 sm:gap-3">
                     <img 
                       src="/yc.webp" 
                       alt="Y Combinator" 
-                      className="h-3 sm:h-4 lg:h-5" 
+                      className="h-4 sm:h-5 lg:h-6" 
                     />
-                    <span className="text-sm sm:text-base font-inter text-gray-400">
+                    <span className="text-base sm:text-lg font-inter text-gray-400 leading-none">
                       backed company
                     </span>
                   </div>
