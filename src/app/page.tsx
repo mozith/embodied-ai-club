@@ -27,15 +27,20 @@ export default function Home() {
                 <p className="text-xs sm:text-sm font-inter text-gray-500 uppercase tracking-wider">
                   In collaboration with
                 </p>
-                <div className="flex items-center justify-center gap-2 sm:gap-3">
+                <div className="flex flex-col items-center justify-center gap-1 sm:gap-2">
                   <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-space-grotesk font-medium text-white">
                     Cortex AI
                   </div>
-                  <img 
-                    src="/yc.webp" 
-                    alt="Y Combinator" 
-                    className="h-3 sm:h-4 lg:h-5" 
-                  />
+                  <div className="flex items-center gap-1 sm:gap-2">
+                    <img 
+                      src="/yc.webp" 
+                      alt="Y Combinator" 
+                      className="h-2 sm:h-3 lg:h-4" 
+                    />
+                    <span className="text-xs sm:text-sm font-inter text-gray-400">
+                      backed company
+                    </span>
+                  </div>
                 </div>
               </div>
               
@@ -107,10 +112,10 @@ export default function Home() {
           </h2>
           <div className="text-lg md:text-xl font-inter text-gray-300 leading-relaxed space-y-6">
             <p>
-              The Embodied AI Club, in collaboration with Cortex AI, a Y Combinator robotics company, gives students hands-on experience at the intersection of AI and robotics.
+              The Embodied AI Club, in collaboration with Cortex AI, a Y Combinator-backed company, gives students hands-on experience at the intersection of AI and robotics.
             </p>
             <p>
-              We focus on remote robot control (teleoperation), data cleaning and training Vision-Language-Action (VLA) models, and 3D simulations—all aimed at reducing reliance on massive datasets and making advanced technology more inclusive and accessible.
+              We focus on remote robot control (teleoperation), data cleaning and training Vision-Language-Action (VLA) models, and 3D simulations—all aimed at building better datasets and making advanced technology more inclusive and accessible.
             </p>
           </div>
         </div>
