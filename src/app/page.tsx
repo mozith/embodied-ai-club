@@ -8,13 +8,13 @@ export default function Home() {
       <div className="absolute inset-0 opacity-[0.02] bg-grid-white/[0.2]"></div>
       
       {/* Hero Section */}
-      <section className="min-h-screen flex px-4 sm:px-6 md:px-8 relative z-10 pt-[20vh] sm:pt-[25vh]">
+      <section className="min-h-screen flex px-4 sm:px-6 md:px-8 relative z-10 pt-[15vh] sm:pt-[20vh]">
         <div className="max-w-6xl mx-auto w-full">
           <div className="grid lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-24 items-start">
             {/* Left Column - Text Content */}
             <div className="text-center lg:text-left space-y-8 sm:space-y-10">
               <div className="space-y-6 sm:space-y-8">
-                <h1 className="hero-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-space-grotesk font-bold leading-[0.9] tracking-tight text-white">
+                <h1 className="hero-title text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-space-grotesk font-bold leading-[0.9] tracking-tight text-white">
                   Embodied AI Club
                 </h1>
                 
