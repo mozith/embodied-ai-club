@@ -31,7 +31,7 @@ export default function Home() {
                   <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-space-grotesk font-medium text-white">
                     Cortex AI
                   </div>
-                  <div className="flex items-center gap-1">
+                  <div className="flex items-center gap-0.5">
                     <img 
                       src="/yc.webp" 
                       alt="Y Combinator" 
