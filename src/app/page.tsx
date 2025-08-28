@@ -19,7 +19,7 @@ export default function Home() {
                 </h1>
                 
                 <p className="hero-subtitle text-xl sm:text-2xl lg:text-3xl font-inter font-light text-gray-400 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  Advancing robotic cognition through hands-on projects
+                  Hands-on robotics training with industry experts making AI accessible to all students
                 </p>
               </div>
               
@@ -93,6 +93,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Mission Statement Section */}
+      <section className="py-16 px-6 relative border-t border-gray-900">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-space-grotesk font-medium text-white mb-8">
+            Our Mission
+          </h2>
+          <div className="text-lg md:text-xl font-inter text-gray-300 leading-relaxed space-y-6">
+            <p>
+              The Embodied AI Club, in collaboration with Cortex AI, a Y Combinator robotics company, gives students hands-on experience at the intersection of AI and robotics.
+            </p>
+            <p>
+              We focus on remote robot control (teleoperation), data cleaning and training Vision-Language-Action (VLA) models, and 3D simulations—all aimed at reducing reliance on massive datasets and making advanced technology more inclusive and accessible.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section className="py-24 px-6 relative">
         <div className="max-w-7xl mx-auto">
@@ -106,59 +123,51 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="stagger-1 glass-card glass-card-hover rounded-2xl p-8 group">
-              <div className="accent-glow mb-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#00c2ff] to-[#0ea5e9] rounded-2xl flex items-center justify-center">
-                  <div className="text-2xl">🤖</div>
-                </div>
+            <div className="border border-gray-800 rounded-lg p-8 hover:border-gray-700 transition-colors">
+              <div className="w-16 h-16 bg-gray-900 border border-gray-800 rounded-lg flex items-center justify-center mb-6">
+                <div className="text-2xl">🎮</div>
               </div>
-              <h3 className="text-2xl font-space-grotesk font-semibold mb-4 bg-gradient-to-r from-[#00c2ff] to-white bg-clip-text text-transparent">
-                Robotic Manipulation
+              <h3 className="text-xl font-space-grotesk font-medium text-white mb-4">
+                Remote Robot Control
               </h3>
-              <p className="font-inter font-light text-gray-300 leading-relaxed text-lg">
-                Control systems & tactile feedback for precise robotic interactions with the physical world
+              <p className="font-inter text-gray-400 leading-relaxed">
+                Learn teleoperation techniques to control robotic arms remotely, generating valuable training data for VLA models
               </p>
             </div>
             
-            <div className="stagger-2 glass-card glass-card-hover rounded-2xl p-8 group">
-              <div className="accent-glow mb-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#9333ea] to-[#c084fc] rounded-2xl flex items-center justify-center">
-                  <div className="text-2xl">🧠</div>
-                </div>
+            <div className="border border-gray-800 rounded-lg p-8 hover:border-gray-700 transition-colors">
+              <div className="w-16 h-16 bg-gray-900 border border-gray-800 rounded-lg flex items-center justify-center mb-6">
+                <div className="text-2xl">🤖</div>
               </div>
-              <h3 className="text-2xl font-space-grotesk font-semibold mb-4 bg-gradient-to-r from-[#9333ea] to-white bg-clip-text text-transparent">
-                Machine Learning Analytics
+              <h3 className="text-xl font-space-grotesk font-medium text-white mb-4">
+                VLA Model Training
               </h3>
-              <p className="font-inter font-light text-gray-300 leading-relaxed text-lg">
-                Perception & decision-making algorithms that enable intelligent robotic behavior
+              <p className="font-inter text-gray-400 leading-relaxed">
+                Train Vision-Language-Action models using quality datasets to enable autonomous robotic behavior and decision-making
               </p>
             </div>
             
-            <div className="stagger-3 glass-card glass-card-hover rounded-2xl p-8 group">
-              <div className="accent-glow mb-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#0ea5e9] to-[#06b6d4] rounded-2xl flex items-center justify-center">
-                  <div className="text-2xl">📊</div>
-                </div>
+            <div className="border border-gray-800 rounded-lg p-8 hover:border-gray-700 transition-colors">
+              <div className="w-16 h-16 bg-gray-900 border border-gray-800 rounded-lg flex items-center justify-center mb-6">
+                <div className="text-2xl">🔧</div>
               </div>
-              <h3 className="text-2xl font-space-grotesk font-semibold mb-4 bg-gradient-to-r from-[#0ea5e9] to-white bg-clip-text text-transparent">
-                Data Engineering
+              <h3 className="text-xl font-space-grotesk font-medium text-white mb-4">
+                Data Cleaning & Research
               </h3>
-              <p className="font-inter font-light text-gray-300 leading-relaxed text-lg">
-                High-fidelity datasets for training robust machine learning models
+              <p className="font-inter text-gray-400 leading-relaxed">
+                Research and implement effective methods to clean datasets and improve training efficiency for better robotic performance
               </p>
             </div>
             
-            <div className="stagger-4 glass-card glass-card-hover rounded-2xl p-8 group">
-              <div className="accent-glow mb-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#f59e0b] to-[#fbbf24] rounded-2xl flex items-center justify-center">
-                  <div className="text-2xl">🌐</div>
-                </div>
+            <div className="border border-gray-800 rounded-lg p-8 hover:border-gray-700 transition-colors">
+              <div className="w-16 h-16 bg-gray-900 border border-gray-800 rounded-lg flex items-center justify-center mb-6">
+                <div className="text-2xl">🌐</div>
               </div>
-              <h3 className="text-2xl font-space-grotesk font-semibold mb-4 bg-gradient-to-r from-[#f59e0b] to-white bg-clip-text text-transparent">
-                Virtual Environments
+              <h3 className="text-xl font-space-grotesk font-medium text-white mb-4">
+                3D Simulations
               </h3>
-              <p className="font-inter font-light text-gray-300 leading-relaxed text-lg">
-                Photorealistic simulation & digital twins for safe robotic development
+              <p className="font-inter text-gray-400 leading-relaxed">
+                Develop and work with 3D simulation environments to test robotic behaviors before real-world deployment
               </p>
             </div>
           </div>
@@ -166,45 +175,40 @@ export default function Home() {
       </section>
 
       {/* Partnership Section */}
-      <section className="py-24 px-6 relative">
-        <div className="glass-card rounded-3xl p-12 max-w-5xl mx-auto">
+      <section className="py-24 px-6 relative border-t border-gray-900">
+        <div className="max-w-5xl mx-auto">
           <div className="text-center">
-            <h2 className="section-title text-4xl md:text-5xl font-space-grotesk font-light mb-8">
-              Powered by Industry Partnership
+            <h2 className="text-4xl md:text-5xl font-space-grotesk font-medium text-white mb-8">
+              Solving Robot Accessibility
             </h2>
             
-            <div className="flex justify-center mb-8">
-              <div className="premium-divider"></div>
-            </div>
-            
-            <p className="font-inter font-light text-xl text-gray-200 mb-12 leading-relaxed max-w-3xl mx-auto">
-              Our collaboration with Cortex AI, a Y Combinator-backed robotics company, provides students with 
-              real-world experience in cutting-edge robotic technologies and direct access to industry mentorship.
+            <p className="font-inter text-xl text-gray-300 mb-12 leading-relaxed max-w-4xl mx-auto">
+              The biggest challenge in making robots accessible is their lack of smooth, reliable operation in real-world environments. This stems from insufficient high-quality datasets needed to train robots effectively. Our collaboration with Cortex AI addresses this core problem through innovative VLA model training that makes robots more capable with less data.
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-[#00c2ff] to-[#0ea5e9] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-3xl">🎯</span>
+                <div className="w-16 h-16 bg-gray-900 border border-gray-800 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl">🎯</span>
                 </div>
-                <h3 className="text-xl font-space-grotesk font-semibold text-white mb-2">Real Projects</h3>
-                <p className="text-gray-300 font-inter">Work on industry-relevant challenges</p>
+                <h3 className="text-lg font-space-grotesk font-medium text-white mb-2">Quality Over Quantity</h3>
+                <p className="text-gray-400 font-inter">Reduce dataset size requirements while improving robot performance</p>
               </div>
               
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-[#9333ea] to-[#c084fc] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-3xl">👥</span>
+                <div className="w-16 h-16 bg-gray-900 border border-gray-800 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl">🏢</span>
                 </div>
-                <h3 className="text-xl font-space-grotesk font-semibold text-white mb-2">Mentorship</h3>
-                <p className="text-gray-300 font-inter">Direct guidance from industry experts</p>
+                <h3 className="text-lg font-space-grotesk font-medium text-white mb-2">Industry Experience</h3>
+                <p className="text-gray-400 font-inter">Observe humanoid training and operations at a robotics company</p>
               </div>
               
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-[#f59e0b] to-[#fbbf24] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-3xl">🚀</span>
+                <div className="w-16 h-16 bg-gray-900 border border-gray-800 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl">🚀</span>
                 </div>
-                <h3 className="text-xl font-space-grotesk font-semibold text-white mb-2">Career Growth</h3>
-                <p className="text-gray-300 font-inter">Pathways to robotics careers</p>
+                <h3 className="text-lg font-space-grotesk font-medium text-white mb-2">Future-Ready Skills</h3>
+                <p className="text-gray-400 font-inter">Prepare for careers in the rapidly growing robotics industry</p>
               </div>
             </div>
           </div>
@@ -212,67 +216,36 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-24 px-6 relative">
+      <section className="py-24 px-6 relative border-t border-gray-900">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-title text-4xl md:text-5xl font-space-grotesk font-light mb-8">
+          <h2 className="text-4xl md:text-5xl font-space-grotesk font-medium text-white mb-6">
             Get Involved
           </h2>
-          
-          <div className="flex justify-center mb-8">
-            <div className="premium-divider"></div>
-          </div>
-          
-          <p className="font-inter font-light text-xl text-gray-200 mb-16 leading-relaxed max-w-3xl mx-auto">
-            Ready to shape the future of robotics? Join our community of innovators and researchers.
+          <p className="font-inter text-xl text-gray-400 leading-relaxed max-w-3xl mx-auto mb-12">
+            Ready to advance robotic accessibility through VLA research? Join our community working on the future of embodied AI.
           </p>
           
-          <div className="glass-card rounded-2xl p-8 mb-12">
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <button className="btn-primary px-12 py-4 text-black font-inter font-semibold rounded-xl text-lg min-w-[200px]">
-                Apply Now
-              </button>
-              <button className="btn-secondary px-12 py-4 text-white font-inter font-semibold rounded-xl text-lg min-w-[200px]">
-                Contact Us
-              </button>
-            </div>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-6 text-center">
-            <div className="glass-card rounded-xl p-6">
-              <div className="text-2xl mb-2">📧</div>
-              <h3 className="font-space-grotesk font-medium text-white mb-1">Email</h3>
-              <p className="text-gray-300 font-inter text-sm">contact@embodiedai.club</p>
-            </div>
-            
-            <div className="glass-card rounded-xl p-6">
-              <div className="text-2xl mb-2">💬</div>
-              <h3 className="font-space-grotesk font-medium text-white mb-1">Discord</h3>
-              <p className="text-gray-300 font-inter text-sm">Join our community</p>
-            </div>
-            
-            <div className="glass-card rounded-xl p-6">
-              <div className="text-2xl mb-2">📍</div>
-              <h3 className="font-space-grotesk font-medium text-white mb-1">Location</h3>
-              <p className="text-gray-300 font-inter text-sm">Campus & Remote</p>
-            </div>
+          <div className="text-xl font-inter font-bold text-white">
+            26hongyiw@sais.edu.sg
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-16 px-6 relative">
-        <div className="glass-card rounded-2xl p-8 max-w-4xl mx-auto">
-          <div className="text-center">
-            <div className="flex justify-center mb-6">
-              <div className="premium-divider"></div>
-            </div>
-            <p className="font-inter font-light text-gray-300 text-lg mb-4">
-              Built with ❤️ by the Embodied AI Club team
-            </p>
-            <p className="font-inter font-light text-gray-500 text-sm">
-              © 2025 Embodied AI Club. Advancing robotic cognition through collaboration.
+      <footer className="py-16 px-6 relative border-t border-gray-900">
+        <div className="max-w-5xl mx-auto text-center">
+          <div className="mb-6">
+            <h4 className="text-lg font-space-grotesk font-medium text-white mb-2">
+              Embodied AI Club
+            </h4>
+            <p className="text-gray-400 font-inter text-sm max-w-xl mx-auto">
+              Making advanced robotics accessible through innovative VLA research and hands-on learning
             </p>
           </div>
+          <div className="h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent mb-6"></div>
+          <p className="font-inter text-gray-500 text-sm">
+            © 2025 Embodied AI Club. Shaping the future of robotics through collaboration.
+          </p>
         </div>
       </footer>
     </div>
