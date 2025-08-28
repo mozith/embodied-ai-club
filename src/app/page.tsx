@@ -2,59 +2,51 @@
 
 export default function Home() {
   return (
-    <div className="min-h-screen premium-gradient-bg relative overflow-hidden">
-      {/* Floating Background Orbs */}
-      <div className="floating-orb floating-orb-1"></div>
-      <div className="floating-orb floating-orb-2"></div>
+    <div className="min-h-screen bg-black text-white relative overflow-hidden">
+      {/* Subtle grid background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-950 to-black"></div>
+      <div className="absolute inset-0 opacity-[0.02] bg-grid-white/[0.2]"></div>
       
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-4 md:px-6 relative z-10">
-        <div className="max-w-7xl mx-auto w-full flex items-center justify-center min-h-screen">
-          <div className="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-16 items-center justify-center w-full">
+      <section className="min-h-screen flex items-center justify-center px-6 md:px-8 relative z-10">
+        <div className="max-w-6xl mx-auto w-full">
+          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
             {/* Left Column - Text Content */}
-            <div className="lg:col-span-7 text-center lg:text-left order-1 lg:order-1 flex flex-col justify-center">
-              <div className="mb-8 lg:mb-8">
-                <h1 className="hero-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-space-grotesk font-light mb-8 lg:mb-8 leading-tight tracking-tight">
+            <div className="text-center lg:text-left space-y-12">
+              <div className="space-y-6">
+                <h1 className="hero-title text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-space-grotesk font-bold leading-[0.9] tracking-tight text-white">
                   Embodied AI Club
                 </h1>
                 
-                <div className="flex justify-center lg:justify-start mb-6 lg:mb-6">
-                  <div className="premium-divider"></div>
+                <p className="hero-subtitle text-xl sm:text-2xl lg:text-3xl font-inter font-light text-gray-400 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                  Advancing robotic cognition through hands-on projects
+                </p>
+              </div>
+              
+              <div className="hero-partnership space-y-2 text-center lg:text-left">
+                <p className="text-sm font-inter text-gray-500 uppercase tracking-wider">
+                  In collaboration with
+                </p>
+                <div className="text-2xl lg:text-3xl font-space-grotesk font-medium text-white">
+                  Cortex AI
+                  <span className="text-sm font-inter text-gray-500 ml-3">Y Combinator</span>
                 </div>
               </div>
               
-              <p className="hero-subtitle text-base sm:text-lg md:text-xl lg:text-2xl font-inter font-light mb-6 lg:mb-8 text-gray-200 leading-relaxed max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
-                Advancing the frontier of robotic cognition through hands-on projects in collaboration with Cortex AI
-              </p>
-              
-              <div className="hero-partners glass-card rounded-2xl p-4 lg:p-6 mb-6 lg:mb-8 max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
-                <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 lg:gap-4">
-                  <span className="text-sm lg:text-base font-inter font-light text-gray-300">In collaboration with</span>
-                  <div className="accent-glow">
-                    <div className="text-xl sm:text-2xl lg:text-3xl font-space-grotesk font-semibold bg-gradient-to-r from-[#00c2ff] to-[#9333ea] bg-clip-text text-transparent">
-                      Cortex AI
-                    </div>
-                  </div>
-                  <span className="text-xs lg:text-sm glass-card px-3 lg:px-4 py-1 lg:py-2 rounded-full text-gray-200 font-medium">
-                    Y Combinator Company
-                  </span>
-                </div>
-              </div>
-              
-              <div className="hero-cta flex flex-col sm:flex-row gap-4 lg:gap-6 justify-center lg:justify-start">
-                <button className="btn-primary px-8 lg:px-10 py-3 lg:py-4 text-black font-inter font-semibold rounded-xl text-base lg:text-lg">
+              <div className="hero-buttons flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+                <button className="bg-white text-black px-8 py-4 font-inter font-medium text-lg rounded-none hover:bg-gray-100 transition-colors">
                   Join the Club
                 </button>
-                <button className="btn-secondary px-8 lg:px-10 py-3 lg:py-4 text-white font-inter font-semibold rounded-xl text-base lg:text-lg">
+                <button className="border border-gray-800 text-white px-8 py-4 font-inter font-medium text-lg rounded-none hover:border-gray-600 transition-colors">
                   Learn More
                 </button>
               </div>
             </div>
             
             {/* Right Column - Video */}
-            <div className="lg:col-span-5 hero-video relative flex justify-center lg:justify-end order-2 lg:order-2 w-full mt-4 lg:mt-0">
-              <div className="glass-card rounded-2xl lg:rounded-3xl p-2 lg:p-3 accent-glow w-full max-w-sm sm:max-w-md lg:max-w-md xl:max-w-lg">
-                <div className="relative rounded-xl lg:rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-black" style={{ aspectRatio: '9/16' }}>
+            <div className="hero-video flex justify-center lg:justify-end">
+              <div className="relative w-full max-w-sm lg:max-w-md">
+                <div className="relative bg-black rounded-2xl overflow-hidden border border-gray-900" style={{ aspectRatio: '9/16' }}>
                   {/* YouTube Embed - High Quality Autonomous Box Folding */}
                   <iframe
                     src="https://www.youtube.com/embed/MY-_ehZJ884?autoplay=1&mute=1&loop=1&playlist=MY-_ehZJ884&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&disablekb=1&fs=0&cc_load_policy=0&hl=en&color=white&autohide=0"
@@ -62,13 +54,32 @@ export default function Home() {
                     frameBorder="0"
                     allow="autoplay; encrypted-media"
                     allowFullScreen={false}
-                    className="w-full h-full rounded-xl lg:rounded-2xl"
+                    className="w-full h-full rounded-2xl"
                     style={{
                       border: 'none',
                       outline: 'none',
                       backgroundColor: '#000'
                     }}
                   />
+                  
+                  {/* Fallback to MP4 if YouTube fails - Comment out when YouTube is ready */}
+                  {/* 
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="auto"
+                    className="w-full h-full object-contain rounded-2xl"
+                    style={{ 
+                      backgroundColor: '#000',
+                      imageRendering: 'crisp-edges'
+                    }}
+                  >
+                    <source src="/videos/Autonomous Box Folding SO-101 1x Speed.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  */}
                 </div>
               </div>
             </div>
