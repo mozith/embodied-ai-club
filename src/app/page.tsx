@@ -12,8 +12,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto w-full">
           <div className="grid lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-24 items-center">
             {/* Left Column - Text Content */}
-            <div className="text-center lg:text-left space-y-8 sm:space-y-12">
-              <div className="space-y-4 sm:space-y-6">
+            <div className="text-center lg:text-left space-y-12 sm:space-y-16">
+              <div className="space-y-6 sm:space-y-8">
                 <h1 className="hero-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-space-grotesk font-bold leading-[0.9] tracking-tight text-white">
                   Embodied AI Club
                 </h1>
@@ -23,7 +23,7 @@ export default function Home() {
                 </p>
               </div>
               
-              <div className="hero-partnership space-y-3 sm:space-y-2 text-center lg:text-left">
+              <div className="hero-partnership space-y-4 sm:space-y-3 text-center lg:text-left pt-4 sm:pt-6">
                 <p className="text-xs sm:text-sm font-inter text-gray-500 uppercase tracking-wider">
                   In collaboration with
                 </p>
