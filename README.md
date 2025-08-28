@@ -2,7 +2,7 @@
 
 A modern, responsive website for the Embodied AI Club - advancing the frontier of robotic cognition through hands-on projects in collaboration with Cortex AI.
 
-## 🚀 Features
+## Features
 
 - **Modern Design**: Clean, gradient-based design with smooth animations
 - **Responsive Layout**: Mobile-first approach that works on all devices
@@ -10,7 +10,7 @@ A modern, responsive website for the Embodied AI Club - advancing the frontier o
 - **Performance Optimized**: Built with Next.js 15 and TailwindCSS
 - **Accessibility**: Semantic HTML and proper contrast ratios
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 15 with App Router
 - **Language**: TypeScript
@@ -23,7 +23,7 @@ A modern, responsive website for the Embodied AI Club - advancing the frontier o
 - Node.js 18+ 
 - npm or yarn
 
-## 🏃‍♂️ Quick Start
+## Quick Start
 
 1. **Clone the repository**
    ```bash
@@ -44,7 +44,7 @@ A modern, responsive website for the Embodied AI Club - advancing the frontier o
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🏗️ Build for Production
+## Build for Production
 
 ```bash
 # Build the application
@@ -54,7 +54,7 @@ npm run build
 npm start
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 embodied-ai-club/
@@ -69,7 +69,7 @@ embodied-ai-club/
 └── package.json            # Dependencies and scripts
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 - **Background**: `#12141a` (Dark blue-gray)
@@ -86,7 +86,7 @@ embodied-ai-club/
 - **slideUp**: 0.6s ease-out with delay
 - **pulse**: 2.5s infinite for scroll indicator
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -94,7 +94,7 @@ embodied-ai-club/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 🎯 About the Club
+## About the Club
 
 The Embodied AI Club allows students to explore the future of robotics and AI through hands-on projects in collaboration with Cortex AI, a Y Combinator robotics company. Members focus on:
 
@@ -103,16 +103,14 @@ The Embodied AI Club allows students to explore the future of robotics and AI th
 - **Data Engineering**: High-fidelity datasets for ML models
 - **Virtual Environments**: Photorealistic simulation & digital twins
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 Links
+## Links
 
 - **Live Demo**: [Coming Soon]
 - **Cortex AI**: [Y Combinator Company]
 - **Contact**: [Club Email]
 
 ---
-
-Built with ❤️ by the Embodied AI Club team
